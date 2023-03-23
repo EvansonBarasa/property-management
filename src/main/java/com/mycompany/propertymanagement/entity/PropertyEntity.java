@@ -16,6 +16,7 @@ public class PropertyEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    //private Long id;
     @Column(name = "PROPERTY_TITLE", nullable = false)
     private String title;
     private String description;
