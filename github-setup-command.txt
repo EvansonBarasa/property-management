@@ -1,16 +1,19 @@
 # First git and github set up
+===============================
+1. git init
 1. git init
 2. git add README.md
 3. git commit -m "first commit"
 4. git branch -M main
 5. git remote add origin https://github.com/EvansonBarasa/property-management.git
-6. git push -u origin main
-7. git push https://ghp_okg@github.com/EvansonBarasa/property-management
+6. git remote set-url origin https://EvansonBarasa:<token>/EvansonBarasa/property-management.git
+7. git push -u origin main
+8. git push https://ghp_okg@github.com/EvansonBarasa/property-management
 
 Next time onwards
+=====================
 1. git status
-1. git status
-2. git pull
-3. git add.
-4. git commit -m "some msg"
-5. git push
+2. git add.
+2. git add.
+3. git commit -m "some message"
+4. git push https://ghp_okg@github.com/EvansonBarasa/property-management
